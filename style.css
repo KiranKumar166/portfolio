@@ -1,0 +1,630 @@
+
+@import url('https://fonts.google.com/specimen/Raleway');
+html{
+	scroll-behavior: smooth;
+}
+
+.home{
+	 position:relative;
+    top:0;
+    left:0;
+    height:100vh;
+    width:100%;
+    background-color: grey;	
+	
+	
+}
+.bold{
+	font-weight: bold;
+	font-size: 60px;
+	color: darkslateblue;
+}
+.hometext{
+	font-family: Raleway;
+	font-size: 49px;
+	text-align: center;
+	position: absolute;
+	top: 38%;
+	bottom: 50%;
+	width: 100%;
+}
+.homebutton{
+	 display: inline-block;
+        background-color: transparent;
+        border-radius: 0px;
+        border: 3px solid #cccccc;
+        color: #eeeeee;
+        text-align: center;
+        font-size: 25px;
+        padding: 20px;
+        width: 200px;
+        transition: all 0.5s;
+        cursor: pointer;
+        margin: 5px;
+}
+.homebutton a{
+	color: white;
+}
+.homebutton:hover {
+  background-color: darkslateblue;
+}
+.homebutton span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.homebutton span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.homebutton:hover span {
+  padding-right: 25px;
+}
+
+.homebutton:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: sticky;
+  
+  top: 0;
+  width: 100%;
+
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 20px;
+  margin-left: 150px;
+  margin-right: -150px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: Raleway;
+}
+
+.navbar a:hover {
+  background: darkslateblue;
+  color: white;
+}
+.about{
+	text-align: center;
+	font-family: Raleway;
+	font-size: 40px;
+	padding-top: 80px;
+	font-weight: bold;
+	color: #444649;
+}
+.aboutunderline{
+	background: darkslateblue;
+    height: 3px;
+    margin:  0 auto;
+    width: 75px;
+	
+}
+.aboutself{
+	display: flex;
+    justify-content: center;
+	
+	flex-wrap: wrap;
+    width: 100%;
+    
+    margin: 15px auto;
+    
+    text-align:center;
+	
+}
+.aboutbold{
+	font-weight: bold;
+	font-size: 30px;
+	color: darkslateblue;
+}
+.st-box {
+            float:left;
+            text-align: center;
+			font-family: Raleway;
+			 width:360px;
+            height:220px;
+			margin-top: 10px;
+            margin-bottom: 10px;
+            background-color:white;
+            
+}
+.nd-box {
+            float:left;
+            text-align: center;
+			font-family: Raleway;
+			 width:360px;
+            height:210px;
+			margin-top: 10px;
+            padding-top: 10px;
+            background-color:white;
+          
+}
+.rd-box {
+            float:left;
+            text-align: center;
+			font-family: Raleway;
+			 width:360px;
+            height:210px;
+			margin-top: 10px;
+            padding-top: 10px;
+            background-color:white;
+           
+}
+.th-box {
+            float:left;
+            text-align: center;
+			font-family: Raleway;
+			 width:360px;
+            height:210px;
+			margin-top: 10px;
+            padding-top: 10px;
+            background-color:white;
+            
+}
+.aboutmyskills{
+    display: flex;
+    justify-content: center;
+	
+	flex-wrap: wrap;
+    width: 100%;
+    
+    margin: 15px auto;
+    
+    text-align:center;
+	
+}
+.left-box {
+            float:left;
+            text-align: center;
+			font-family: Raleway;
+			 width:700px;
+            height:380px;
+            padding-top: 100px;
+			margin-top: 10px;
+			margin-bottom: 10px;
+            background-color:white;
+            
+}
+.right-box {
+            float:right;
+            text-align: left;
+			font-family: Raleway;
+			 width:700px;
+            height:450px;
+            padding-left: 50px;
+			padding-top: 30px;
+			margin-top: 10px;
+            background-color:white;
+            
+}	
+.container {
+	
+	        
+            background-color: rgb(192, 192, 192);
+            width: 80%;
+            border-radius: 0px;
+        }
+		.skillbold{
+			font-weight: bold;
+	font-size: 20px;
+	color: grey;
+			
+		}
+      
+        .skill {
+			
+            background-color: darkslateblue;
+            color: white;
+            padding: 1%;
+            text-align: right;
+            font-size: 20px;
+                border-radius: 0px;
+        }
+      
+        .html {
+            width: 80%;
+        }
+      
+        .php {
+            width: 80%;
+        }
+		.javascript{
+			width: 40%;
+		}
+		.python{
+			width: 30%;
+		}
+		
+.education{
+	text-align: center;
+	font-family: Raleway;
+	font-size: 40px;
+	padding-top: 80px;
+	font-weight: bold;
+	color: #444649;
+}
+.educationbold{
+	font-weight: bold;
+	font-size: 30px;
+	color: darkslateblue;
+}
+.educationunderline{
+	background: darkslateblue;
+    height: 3px;
+    margin: 0 auto;
+    width: 150px;
+	
+}		
+.educationbox{
+	display: flex;
+    justify-content: center;
+	
+	flex-wrap: wrap;
+    width: 100%;
+    
+    margin: 15px auto;
+    
+    text-align:center;
+	
+	
+}
+
+.educationhorizontal{
+	background: darkslateblue;
+    height: 175px;
+    width: 7px;
+	text-align: center;
+	
+}
+.topbox {
+            float:left;
+            text-align: left;
+			font-family: Raleway;
+			 width:400px;
+            height:180px;
+			padding-right: 10px;
+            padding-bottom: 30px;
+            background-color:white;
+            border-right: 1px solid black;
+}
+.middlebox {
+            float:left;
+            text-align: left;
+			font-family: Raleway;
+			 width:400px;
+            height:180px;
+			padding-right: 10px;
+            padding-bottom: 30px;
+            background-color:white;
+           
+}
+.bottombox {
+            float:left;
+            text-align: left;
+			font-family: Raleway;
+			 width:400px;
+            height:180px;
+			padding-right: 10px;
+            padding-bottom: 30px;
+            background-color:white;
+            border-left: 1px solid black;
+}
+.educationinsicethreeboxline {
+            float:left;
+            text-align: center;
+			font-family: Raleway;
+			 width:50px;
+            height:175px;
+            margin-top:20px;
+    margin-left: 20px;
+    padding-right:15px;
+            background-color: #e6e6e6;
+            
+}
+.educationinsicethreeboxtext{
+	        float:left;
+            text-align: left;
+			font-family: Raleway;
+			 width:300px;
+            height:155px;
+            margin-top:20px;
+			margin-bottom: 10px;
+			padding-top: 20px;
+            padding-right: 10px;
+            background-color:#e6e6e6;
+            
+	
+}
+.myprojects{
+	text-align: center;
+	font-family: Raleway;
+	font-size: 40px;
+	padding-top: 80px;
+	font-weight: bold;
+	color: #444649;
+}
+.myprojectsunderline{
+	background: darkslateblue;
+    height: 3px;
+    margin: 0 auto;
+    width: 150px;
+	
+}	
+.myprojectscontainer{
+	
+	 display: flex;
+    justify-content: center;
+	
+	flex-wrap: wrap;
+    width: 100%;
+    
+    margin: 15px auto;
+    
+    text-align:center;
+	
+}
+.myprojectsbold{
+	font-weight: bold;
+	font-size: 40px;
+	
+
+}		
+.myprojectsbox {
+            float:left;
+            text-align: center;
+			font-family: Raleway;
+			 width:360px;
+            height:220px;
+            margin: 20px;
+			
+			 
+ 
+            border: 1px solid darkslateblue;
+            background-color:white;
+            
+}
+.myprojectsoverlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: grey;
+ 
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+  
+}
+
+.myprojectsbox:hover .myprojectsoverlay{
+	
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+}
+.myprojectsbutton{
+	display: inline-block;
+        background-color: transparent;
+        border-radius: 0px;
+        border: 3px solid #cccccc;
+        color: #eeeeee;
+        text-align: center;
+        font-size: 25px;
+        padding: 20px;
+        width: 200px;
+        transition: all 0.5s;
+        cursor: pointer;
+        margin: 75px;
+} 
+.myprojectsbutton a{
+	color: white;
+}      
+.myprojectsbutton:hover{
+    background-color: darkslateblue;
+}
+.myprojectsbutton span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.myprojectsbutton span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.myprojectsbutton:hover span {
+  padding-right: 25px;
+}
+
+.myprojectsbutton:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.contactme{
+	text-align: center;
+	font-family: Raleway;
+	font-size: 40px;
+	padding-top: 80px;
+	font-weight: bold;
+	color: #444649;
+}
+.contactmeunderline{
+	background: darkslateblue;
+    height: 3px;
+    margin: 0 auto;
+    width: 150px;
+	
+}
+.contactmecontainer{
+	
+	 display: flex;
+    justify-content: center;
+	background-color: white;
+	flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    margin: 15px auto;
+	
+	left: 0;
+	
+   
+    text-align:center;
+	
+}
+
+.contactmeleft-box {
+            float:left;
+            text-align: center;
+			font-family: Raleway;
+			
+			 width:700px;
+            
+            padding: 50px;
+            background-color: white;
+           
+			display: flex;
+    justify-content: center;
+	
+	flex-wrap: wrap;
+   
+    margin: 15px;
+   
+    
+    
+	
+}
+.contactmehorizontal{
+	background: darkslateblue;
+    height: 210px;
+    width: 7px;
+	text-align: center;
+	
+}
+.contactmeboxline {
+            float:left;
+            text-align: center;
+			font-family: Raleway;
+			 width:50px;
+           
+            padding: 50px;
+            background-color: white;
+           
+}
+.contactmeboxtext{
+	        float:left;
+            text-align: left;
+			font-family: Raleway;
+			font-size: 25px;
+			 width:350px;
+            padding-top: 80px;
+			padding-right: 50px;
+            
+			
+            background-color:white;
+            
+	
+}
+.contactmeleft-boxinside{
+            float:left;
+            text-align: center;
+			font-family: Raleway;
+			
+			 width: 100%;
+            
+            padding: 10px;
+            background-color:white;
+           
+			display: flex;
+    justify-content: center;
+	
+	flex-wrap: wrap;
+   
+    margin: 15px;
+   
+    
+    
+	
+}
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  
+  box-sizing: border-box;
+}
+input[type=submit] {
+  width: 100%;
+  background-color: darkslateblue;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: grey;
+}
+.socialmedia{
+	 display: flex;
+    justify-content: center;
+	background-color: white;
+	flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    margin: 15px auto;
+	padding:20px;
+	left: 0;
+	
+   
+    text-align:center;
+}
+.fa-linkedin {
+  padding: 10px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  background-color: darkslateblue;
+  color: grey
+}
+.fa-github{
+  padding: 10px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  background-color: darkslateblue;
+  color: grey
+}
